@@ -1,0 +1,14 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.imagen{
+    width: 300px;
+}
+
+.imagen:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
