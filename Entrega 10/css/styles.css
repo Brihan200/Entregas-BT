@@ -1,0 +1,30 @@
+.contenedor{
+    background-color: beige;
+    display: flex;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    min-height: 5rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: initial;
+}
+
+.izquierda{
+    background-color: aqua;
+}
+
+.derecha{
+    background-color: violet;
+    width: 50%;
+}
+
+@media (max-width: 640px){
+    .derecha{
+        flex-direction: row;
+    }
+    .izquieda{
+        flex-direction: row-reverse;
+    }
+}
+
+
